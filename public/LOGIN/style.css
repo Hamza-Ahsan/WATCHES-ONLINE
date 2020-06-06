@@ -1,0 +1,90 @@
+@media screen and (max-width: 500px ){
+    .navbar{
+       width: 100%;
+       justify-content: center ;
+   }
+
+}
+@media screen and (max-width: 700px ){
+   .navbar{
+      width: 100%;
+      justify-content: center ;
+  }
+
+}
+
+.navbar-text{
+   color: white !important;
+}
+
+.fa-facebook-square, .fa-instagram, .fa-twitter, .fa-whatsapp{
+   font-size: 20px !important;
+}
+.navbar-brand{ 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: bold;
+   font-size: 30px !important;
+   text-shadow: 4px 3px 3px gray;
+   font-style: italic;
+}
+.nav-link{
+  color: gray;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-link:hover{
+   background-color: rgb(48, 48, 48);
+   color: white !important;
+   border-radius: 15px;
+}
+.heading{
+   margin-top: 50px;
+   margin-left: 50px;
+   text-shadow: 2px 5px 4px gray;
+}
+.fa-shopping-bag, .fa-user-o{
+   font-size: 32px !important;
+}
+.btn-dark:hover{
+     background-color: gray;
+     color: black;
+}
+
+ul{
+   list-style-type: none;
+}
+.btn-dark{
+   justify-content: center;
+}
+.col{
+   margin: 50px;
+}
+.useful{
+   font-size: 20px;
+   margin-bottom: 15px;
+   text-decoration: underline;
+   color: white;
+   
+}
+.list, li{
+   margin-top: 10px;
+   color: rgb(204, 199, 199) !important;
+}
+.square{
+   list-style-type: square;
+   margin-bottom: 10px;
+}
+.copyright{
+   color: white;
+   margin: 15px;
+   margin-left: 20px;
+}
+.fa-arrow-circle-up{
+   font-size: 50px !important;
+   color: black;
+   display: none;
+   position: fixed;
+   bottom: 60px;
+   right: 30px;
+   
+}
